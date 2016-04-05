@@ -26,7 +26,7 @@ preceding part of this chapter) and replaced with the class js. If it is not rem
 </head>
 
 <body>
-  <!--
+    <!--
     Conditional comments for Internet Explorer, which enable developers to compose fixes for older IE browsers using appropriate nested selectors
   -->
     <!--[if lte IE 7]>
@@ -39,27 +39,34 @@ preceding part of this chapter) and replaced with the class js. If it is not rem
 
     <!-- Add your site or application content here -->
     <header role="banner">
-      <nav role="navigation" class="navbar navbar-static-top navbar-default">
-        <div class="container">
-          <div class="navbar-header">
-            <a href="index.html" class="navbar-brand">Project Name</a>
-          </div>
-          <ul class="nav navbar-nav">
-            <li class="active"> <a href="index.html">Home</a></li>
-            <li><a href="#">Link</a></li>
-            <li><a href="#">Link</a></li>
-          </ul>
-        </div>
-      </nav>
+        <nav role="navigation" class="navbar navbar-static-top navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="index.html" class="navbar-brand">Bootstrap Template</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"> <a href="index.html">Home</a></li>
+                        <li><a href="#">Link</a></li>
+                        <li><a href="#">Link</a></li>
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </nav>
     </header>
 
     <main role="main">
-      <h1>Main Heading</h1>
-      <p>Content specific to this page goes here.</p>
+        <h1>Main Heading</h1>
+        <p>Content specific to this page goes here.</p>
     </main>
 
     <footer role="contentinfo">
-      <p><small>Copyright &copy; Company Name</small></p>
+        <p><small>Copyright &copy; Company Name</small></p>
     </footer>
     <!-- A link to Google's hosted version of jQuery, followed by a link to a local fallback copy of jQuery -->
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
