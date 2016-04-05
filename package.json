@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap-h5bp",
+  "version": "1.0.0",
+  "description": "A template for apps made with Bootstrap, LESS, and h5bp",
+  "main": "index.html",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bootstrap",
+    "h5bp",
+    "less"
+  ],
+  "author": "Justin Walters",
+  "license": "ISC"
+}
